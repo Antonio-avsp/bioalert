@@ -1,0 +1,35 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663666098924/ikHyJAV4GospYAy4yicEkh",
+    "access_key_id": "ASIAZV3A2ECZMJVDI2R3",
+    "secret_access_key": "rmlq8DQKQwDRLupw/XRfRTDrJkqJOS6z4tsk+ZDm",
+    "session_token": "IQoJb3JpZ2luX2VjEMr//////////wEaCXVzLWVhc3QtMSJHMEUCIQCKhUaA221iVrD2tsFJFiXEvSwTs2FM6Nt8Hukx/YE0pwIgex+Wz8qe5wPoatAd8c5owAcfcWILq+3TaNOEL2UhAE8q/wMIk///////////ARAEGgw2NjUzODYwOTg4NjYiDDypf1otRas07vbSnSrTA6rfyRv+AhzpSDnYnSnuQB4kCZvw2sLNm+x0w6PUZtvIGoiUahRIbsEThG8nstbkpz2NXuPKxVcczlQFD/0JTannbF1MGFmd8OLRdJOUze+FCtKwBxEqIuzXQX3wno4Ypz2uAs+L4qo+gikIkh+Av9gSD9zJcEga13wKfd77SRba8+9v3kO7xrSNIri35Ry3u8RqY/w08TEfHlzPAdu9OShSM0L0w+agipORl+x7sbm6GRqZbbX0hDMbD0h6LtvWGHK9+liVsAawRHx5YgD6eWio97t9MuzTUh8XAn1zAwkMrpkJ4YVwj/0LSQr8BK86AA0wylyxjp6mGRX5JiPDt9B4fljiauHNBN9A74TzjSa9SG3C2xnZaQ45WWYK8+Cn1fcW5vD0zRYJtxqKtWONNF0FIB+OARez3VWmJuOOlYc2bi/6hNsT6zDJQnXZnRdq5DVp1jt79zLtd4021kjFGN94kTyJlJPre/jaDkTpBwDVID12U/L6LTr19CPJGGeRvapdmn670XxqHNLNqW0SvmPs+PghWaJkl2rP/Vm1Ske9ejW1RtBeMfXhb3mCh2+gU8xVueYQP/vePImi7loi6UhtmAjicml7QLUNrBgcwHLgu1kRMKnSotAGOp0BmTCIAoYKT+9qxKh9SWcwZGreTu7C+BTZgy5pvE/Naksg6BwgxbndgW9h0IGoofNhwPI+qCTuhZgAyGF8SReCyCJKyuSnFXwwZpI9Bgauf50enFI5ZPnsu9M80qkp0UHLB82yfZQssVgioqDYvZq7lSLDlM9FylagtkFkLymnCRcsirnI92FupvEkaxSEu+hL/ceriuB1axyv/mBDgQ==",
+    "expiration": "2026-05-17T05:28:09.000Z"
+  },
+  "name": "bioalert",
+  "path": "/home/ubuntu/bioalert",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "27VdJA9WcTNe2zrWFCSaBc",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "cRFfiu7EtmEkEfhTbDp3pj",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Antonio Vinicius",
+    "OWNER_OPEN_ID": "VDNug5wEdcvyhjVuXbvozq",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "80e72ae6-f49f-46cc-9310-80361b64ad95",
+    "VITE_APP_ID": "ikHyJAV4GospYAy4yicEkh",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "BIOALERT - Monitoramento Urbano e Alertas Climáticos",
+    "VITE_FRONTEND_FORGE_API_KEY": "f54kKfQBh5gmhmfN8ofimj",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
