@@ -11,7 +11,6 @@ import MapSection from "@/components/MapSection";
 import DashboardSection from "@/components/DashboardSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import DifferentialsSection from "@/components/DifferentialsSection";
-import TechSection from "@/components/TechSection";
 import ImpactSection from "@/components/ImpactSection";
 import MVPSection from "@/components/MVPSection";
 import Footer from "@/components/Footer";
@@ -34,7 +33,6 @@ export default function Home() {
         <DashboardSection />
         <FeaturesSection />
         <DifferentialsSection />
-        <TechSection />
         <ImpactSection />
         <MVPSection />
         <Footer />

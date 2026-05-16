@@ -1,15 +1,22 @@
 {
   "build_command": "pnpm run build",
-  "capabilities": [],
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
   "dev_command": "pnpm run dev",
-  "env_vars": {},
+  "env_vars": {
+    "DATABASE_URL": "mysql://dGzL4FpkTU5YYpY.root:84WYGkX4sdHj63gxvX1h@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/ikHyJAV4GospYAy4yicEkh?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://dGzL4FpkTU5YYpY.root:84WYGkX4sdHj63gxvX1h@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/ikHyJAV4GospYAy4yicEkh?ssl={\"rejectUnauthorized\":true}"
+  },
   "experiments": null,
   "git_remote": {
     "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663666098924/ikHyJAV4GospYAy4yicEkh",
-    "access_key_id": "ASIAZV3A2ECZMJVDI2R3",
-    "secret_access_key": "rmlq8DQKQwDRLupw/XRfRTDrJkqJOS6z4tsk+ZDm",
-    "session_token": "IQoJb3JpZ2luX2VjEMr//////////wEaCXVzLWVhc3QtMSJHMEUCIQCKhUaA221iVrD2tsFJFiXEvSwTs2FM6Nt8Hukx/YE0pwIgex+Wz8qe5wPoatAd8c5owAcfcWILq+3TaNOEL2UhAE8q/wMIk///////////ARAEGgw2NjUzODYwOTg4NjYiDDypf1otRas07vbSnSrTA6rfyRv+AhzpSDnYnSnuQB4kCZvw2sLNm+x0w6PUZtvIGoiUahRIbsEThG8nstbkpz2NXuPKxVcczlQFD/0JTannbF1MGFmd8OLRdJOUze+FCtKwBxEqIuzXQX3wno4Ypz2uAs+L4qo+gikIkh+Av9gSD9zJcEga13wKfd77SRba8+9v3kO7xrSNIri35Ry3u8RqY/w08TEfHlzPAdu9OShSM0L0w+agipORl+x7sbm6GRqZbbX0hDMbD0h6LtvWGHK9+liVsAawRHx5YgD6eWio97t9MuzTUh8XAn1zAwkMrpkJ4YVwj/0LSQr8BK86AA0wylyxjp6mGRX5JiPDt9B4fljiauHNBN9A74TzjSa9SG3C2xnZaQ45WWYK8+Cn1fcW5vD0zRYJtxqKtWONNF0FIB+OARez3VWmJuOOlYc2bi/6hNsT6zDJQnXZnRdq5DVp1jt79zLtd4021kjFGN94kTyJlJPre/jaDkTpBwDVID12U/L6LTr19CPJGGeRvapdmn670XxqHNLNqW0SvmPs+PghWaJkl2rP/Vm1Ske9ejW1RtBeMfXhb3mCh2+gU8xVueYQP/vePImi7loi6UhtmAjicml7QLUNrBgcwHLgu1kRMKnSotAGOp0BmTCIAoYKT+9qxKh9SWcwZGreTu7C+BTZgy5pvE/Naksg6BwgxbndgW9h0IGoofNhwPI+qCTuhZgAyGF8SReCyCJKyuSnFXwwZpI9Bgauf50enFI5ZPnsu9M80qkp0UHLB82yfZQssVgioqDYvZq7lSLDlM9FylagtkFkLymnCRcsirnI92FupvEkaxSEu+hL/ceriuB1axyv/mBDgQ==",
-    "expiration": "2026-05-17T05:28:09.000Z"
+    "access_key_id": "ASIAZV3A2ECZGVQ7WPYC",
+    "secret_access_key": "XiAaN/P6f/boRceqq0YOF4BJq+PdhhsUELfSenMJ",
+    "session_token": "IQoJb3JpZ2luX2VjEMr//////////wEaCXVzLWVhc3QtMSJHMEUCID27N8G0JEdZGjq+9B08aPLOOqjjQm/0/k65WzRFGyeGAiEAmO+8CO5YcIoI5/ZKFOy1+1ZGhTPIvfaJ8T25G+xzogoq/wMIk///////////ARAEGgw2NjUzODYwOTg4NjYiDGGqs387STHQeA44HSrTA5IHIFVRB6htXUBQjFe5nYVCBeM4xBpMehHroABV9N4iMr0g38PB1TdHU02x8+OrW05rMz3YONcPXAe4KKLYkyTTBV7MNq+OZMiihJBzy0oyDAFId3lWd1K0sfbCc0JGCHb+zRot7RF+MLOEy0HVaaHUhpbXfI5fOHnt9oe6bdnykUnboy2RZAzi666F3pul/C94JZ1SCL/U8hgJpdOwN16tCt2RktYEJpmfJvnL0/YtWWOCrgksKNv5OBv1wh+1q7YxJ1cNv1vjpHL5Y6XfKfPKc26jwZA2Tv8ldjqDi9mwMREEK8JCgWvzsDVfrhqJtS198VO90gXQZTzBYHnZg5o+p8+mLSVszNterI1P09VUqeF/EE+ZR5VvIhAr1jNNV0nr8yAuch/fTQrBofVZQuQ8WuuUlfbbaA0tA+JleaOpOViTmJCCgd+g/sqKwWjarXf6tbMki4T+8vq3wZUHSRji0fGAOz6wduB7Xv8l3wuq89auDuLIzvK4GunhcLT7ByRxJqxrUf5OTEmARalfbyZ4EHtPzkpspTHcZiEVe91VmnC38vNV+AXUazIKaLnUyHsq7pCNNOKILrj5qZ2AHghSxNRdXhvmWgWzYqYaIjQo0YT/MJzfotAGOp0BQLuPkPr83gp65lETBEJJvo3dfIqu4rMJmceY/0SH+kksTY+VQTubeZ3lgE097Bdpxn8cdKZrBV/DZefhZId+Qmd7NJrlC6BTO94W0IWwSz/TVWUpU0AhUCc2E3Ppel6oDXkLbXjhVdeyI0ciqjzvhIeHiOX1G6gFcUuiyprxboRzL4X8FYHby2oN1kmPtYvh8VojyfSLn933sShKwA==",
+    "expiration": "2026-05-17T05:55:40.000Z"
   },
   "name": "bioalert",
   "path": "/home/ubuntu/bioalert",
@@ -24,7 +31,7 @@
     "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
     "VITE_ANALYTICS_WEBSITE_ID": "80e72ae6-f49f-46cc-9310-80361b64ad95",
     "VITE_APP_ID": "ikHyJAV4GospYAy4yicEkh",
-    "VITE_APP_LOGO": "",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663666098924/jOhHeLZencNXSkOw.png",
     "VITE_APP_TITLE": "BIOALERT - Monitoramento Urbano e Alertas Climáticos",
     "VITE_FRONTEND_FORGE_API_KEY": "f54kKfQBh5gmhmfN8ofimj",
     "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",

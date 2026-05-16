@@ -12,7 +12,6 @@ const navLinks = [
   { label: "Mapa", href: "#mapa" },
   { label: "Dashboard", href: "#dashboard" },
   { label: "Funcionalidades", href: "#funcionalidades" },
-  { label: "Tecnologias", href: "#tecnologias" },
   { label: "Impacto", href: "#impacto" },
 ];
 
