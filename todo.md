@@ -5,3 +5,13 @@
 - [x] Criar testes vitest para as rotas
 - [x] Migrar banco de dados com pnpm db:push
 - [x] Remover splash screen/animação inicial - abrir direto no conteúdo
+- [x] Migrar banco de dados MySQL para PostgreSQL no Supabase
+- [x] Criar tabelas no Supabase (neighborhoods, flood_reports, alerts, sensor_data, sos_requests, user_profiles)
+- [x] Configurar Row Level Security (RLS) no Supabase
+- [x] Criar Edge Functions no Supabase para lógica de backend
+- [x] Adaptar frontend para usar Supabase client SDK
+- [x] Configurar autenticação via Supabase Auth
+- [x] Preparar projeto para deploy na Vercel
+- [x] Deploy frontend na Vercel com variáveis de ambiente
+- [x] Interligar Vercel (front) com Supabase (back + banco)
+- [x] Validar integração completa SaaS cliente-servidor
