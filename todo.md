@@ -4,3 +4,4 @@
 - [x] Criar rotas de API tRPC para reports, alerts e dashboard
 - [x] Criar testes vitest para as rotas
 - [x] Migrar banco de dados com pnpm db:push
+- [x] Remover splash screen/animação inicial - abrir direto no conteúdo
