@@ -1,25 +1,44 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
-
 /**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Best Practices, Design Guide and Common Pitfalls
+ * Home - Página principal do BIOALERT
+ * Compõe todas as seções da plataforma em uma landing page completa
  */
+import { useState, useCallback } from "react";
+import SplashScreen from "@/components/SplashScreen";
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import ProblemSection from "@/components/ProblemSection";
+import MapSection from "@/components/MapSection";
+import DashboardSection from "@/components/DashboardSection";
+import FeaturesSection from "@/components/FeaturesSection";
+import DifferentialsSection from "@/components/DifferentialsSection";
+import TechSection from "@/components/TechSection";
+import ImpactSection from "@/components/ImpactSection";
+import MVPSection from "@/components/MVPSection";
+import Footer from "@/components/Footer";
+
 export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
+  const [showSplash, setShowSplash] = useState(true);
+
+  const handleSplashComplete = useCallback(() => {
+    setShowSplash(false);
+  }, []);
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
-      </main>
-    </div>
+    <>
+      {showSplash && <SplashScreen onComplete={handleSplashComplete} />}
+      <div className="min-h-screen bg-background text-foreground">
+        <Navbar />
+        <HeroSection />
+        <ProblemSection />
+        <MapSection />
+        <DashboardSection />
+        <FeaturesSection />
+        <DifferentialsSection />
+        <TechSection />
+        <ImpactSection />
+        <MVPSection />
+        <Footer />
+      </div>
+    </>
   );
 }
